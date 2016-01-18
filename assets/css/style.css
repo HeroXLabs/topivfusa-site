@@ -4,8 +4,11 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
+/*@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");*/
 
+nav#nav {
+  font-size: .9em;
+}
 /* Basic */
 
 	body {
@@ -471,7 +474,7 @@
 /* Header */
 
 	#header {
-		background: #333333 url("https://middlegirlcdn.s3-us-west-2.amazonaws.com/uploads/image/file/260/bg2.jpg") no-repeat;
+		background: #333333 url("https://middlegirlcdn.s3-us-west-2.amazonaws.com/uploads/image/file/451/baby-390555_960_720.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 6em 0;
@@ -576,7 +579,7 @@
 	#banner {
 		text-align: center;
 		padding: 4em 0 0 0;
-    min-height: 200px;
+    min-height: 300px;
 	}
   #banner section { margin-top: 30px; }
 
@@ -670,4 +673,3 @@
 		#footer a {
 			color: inherit;
 		}
-
