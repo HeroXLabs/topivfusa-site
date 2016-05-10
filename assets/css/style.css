@@ -8,6 +8,29 @@
 
 div.well { background-color: #fff }
 
+.navbar-default {
+  border:none;
+  background-color: #007BCF;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.dropdown-menu {
+  border: none;
+}
+
 body.main {
   font-size: 16px;
 }
@@ -16,7 +39,9 @@ img.wang-logo {
   margin: 20px 0;
 }
 
-#banner header.major h2 {margin-bottom: 18px; }
+#banner header.major h2 {
+  margin-bottom: 10px;
+}
 #header.post-header { height: 0px; }
 
 section.intro {
@@ -110,6 +135,12 @@ section.features ul {
 section.features .icon-feature .glyphicon {
   font-size: 40px;
 }
+
+
+.navbar {
+  margin-bottom: 0;
+}
+
 /* Basic */
 
 	body.main {
@@ -125,7 +156,7 @@ section.features .icon-feature .glyphicon {
 
 	a {
 		color: #3ac984;
-		text-decoration: underline;
+		/* text-decoration: underline; */
 	}
 
 		a:hover {
@@ -582,12 +613,11 @@ section.features .icon-feature .glyphicon {
 /* Header */
 
 	#header {
-		/* background: url("/assets/images/congruent_pentagon.png") repeat; */
     background: url("/assets/images/ivfbg.jpeg") no-repeat;
     background-size: cover;
 		color: #fff;
 		padding: 0;
-    height: 600px;
+    height: 500px;
 		text-align: center;
 		position: relative;
 	}
@@ -695,15 +725,14 @@ section.features .icon-feature .glyphicon {
 }
 
 #banner section {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 #header.post-header #banner section {
   margin-top: 0px;
 }
 
-
 #banner .major h2 {
-  font-size: 3.5em;
+  font-size: 2.3em;
 }
 
 #banner .major .byline {
@@ -804,3 +833,9 @@ section.features .icon-feature .glyphicon {
       }
     }
 
+
+    @media only screen and (max-width: 767px) {
+      .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: white;
+      }
+    }
